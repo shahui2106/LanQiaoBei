@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2826aa0-5e5c-4670-9b46-a9b24e90e58d" name="Default Changelist" comment="新增一道历史真题：核桃的数量">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/BaoShiZhuShou/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/GaoJingDuJiaFa/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/HexToOctal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/Huffuman/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/JieChengJiSuan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/QuHuiXingShu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JiChuTi/QueenProblem/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZhenTi/DaiFenShu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZhenTi/DaiFenShu/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JiChuTi/WeiMingHuBianDeFanNao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SuanFaTiGao/ShuYuanZhuChiRen/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/CuoWuPiaoJu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/FanYingBi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/LianHaoQuJianShu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/MaYiGanMao/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/MaiBuDaoDeShuMu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/ShuZiYouXi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/ShuZiYouXi/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZhenTi/XiaoPengYouPaiDui/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LanQiaoBei/ZhenTi/HeTaoDeShuLiang/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LanQiaoBei/ZhenTi/HeTaoDeShuLiang/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +30,16 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="LanQiaoBei" />
-    <favorites_list name="PaiXu">
-      <favorite_root url="file://$PROJECT_DIR$/src/ZhenTi/DaiFenShu/Main.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,39 +80,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSenior" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ZhenTi.XiaoPengYouPaiDui" />
       <recent name="JiChuTi" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JiChuTi.GaoJingDuJiaFa.Main" />
+      <option name="MAIN_CLASS_NAME" value="ZhenTi.MaiBuDaoDeShuMu.Main" />
       <module name="LanQiaoBei" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JiChuTi.GaoJingDuJiaFa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JiChuTi.BaoShiZhuShou.Main" />
-      <module name="LanQiaoBei" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JiChuTi.BaoShiZhuShou.*" />
+          <option name="PATTERN" value="ZhenTi.MaiBuDaoDeShuMu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,24 +110,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JiChuTi.QuHuiXingShu.Main" />
+      <option name="MAIN_CLASS_NAME" value="SuanFaTiGao.ShuYuanZhuChiRen.Main" />
       <module name="LanQiaoBei" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JiChuTi.QuHuiXingShu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JiChuTi.QueenProblem.Main" />
-      <module name="LanQiaoBei" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JiChuTi.QueenProblem.*" />
+          <option name="PATTERN" value="SuanFaTiGao.ShuYuanZhuChiRen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +123,37 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JiChuTi.Huffuman.Main" />
+      <option name="MAIN_CLASS_NAME" value="ZhenTi.MaYiGanMao.Main" />
       <module name="LanQiaoBei" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JiChuTi.Huffuman.*" />
+          <option name="PATTERN" value="ZhenTi.MaYiGanMao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZhenTi.XiaoPengYouPaiDui.Main" />
+      <module name="LanQiaoBei" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ZhenTi.XiaoPengYouPaiDui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZhenTi.XiaoPengYouPaiDui.MainTest" />
+      <module name="LanQiaoBei" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ZhenTi.XiaoPengYouPaiDui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +200,17 @@
       <workItem from="1578789685164" duration="10355000" />
       <workItem from="1578819777859" duration="3283000" />
       <workItem from="1578882737220" duration="20578000" />
+      <workItem from="1579676143392" duration="323000" />
+      <workItem from="1579676507476" duration="11692000" />
+      <workItem from="1579756323237" duration="17518000" />
+      <workItem from="1580007409736" duration="7951000" />
+      <workItem from="1580088885017" duration="4191000" />
+      <workItem from="1580180326227" duration="6710000" />
+      <workItem from="1580625498894" duration="5776000" />
+      <workItem from="1580693294772" duration="6455000" />
+      <workItem from="1580797262828" duration="7032000" />
+      <workItem from="1580873740220" duration="2534000" />
+      <workItem from="1580957158748" duration="13703000" />
     </task>
     <task id="LOCAL-00001" summary="新增一道历史真题：核桃的数量">
       <created>1578547505543</created>
@@ -226,21 +239,27 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="361" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578821562835" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1580018851298">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580018851298" />
     <state x="437" y="180" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578789805670">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="437" y="180" key="#com.intellij.ide.util.PackageChooserDialog/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578789805670" />
-    <state x="510" y="342" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1578789807154">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="638" y="385" width="355" height="206" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580988056713">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="638" y="385" width="355" height="206" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1050@0.0.1920.1050" timestamp="1580988056713" />
     <state x="510" y="342" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578789807154" />
     <state x="276" y="40" key="CommitChangelistDialog2" timestamp="1578911101430">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="276" y="40" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1578911101430" />
-    <state x="499" y="137" key="FileChooserDialogImpl" timestamp="1578816146013">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="624" y="124" key="FileChooserDialogImpl" timestamp="1580813557872">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="624" y="124" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1580813557872" />
     <state x="499" y="137" key="FileChooserDialogImpl/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578816146013" />
     <state x="612" y="322" width="324" height="260" key="Github.ShareDialog" timestamp="1578543937934">
       <screen x="0" y="40" width="1536" height="824" />
@@ -250,53 +269,62 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="524" y="40" key="Github.UntrackedFilesDialog/0.40.1536.824@0.40.1536.824" timestamp="1578543950866" />
-    <state width="1487" height="476" key="GridCell.Tab.0.bottom" timestamp="1578910985435">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="209" key="GridCell.Tab.0.bottom" timestamp="1580986943702">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580986943702" />
     <state width="1487" height="190" key="GridCell.Tab.0.bottom/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578904811826" />
     <state width="1487" height="476" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1578910985435" />
-    <state width="1487" height="476" key="GridCell.Tab.0.center" timestamp="1578910985435">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="209" key="GridCell.Tab.0.center" timestamp="1580986943702">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="209" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580986943702" />
     <state width="1487" height="190" key="GridCell.Tab.0.center/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578904811826" />
     <state width="1487" height="476" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1578910985435" />
-    <state width="1487" height="476" key="GridCell.Tab.0.left" timestamp="1578910985434">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="209" key="GridCell.Tab.0.left" timestamp="1580986943702">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="209" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580986943702" />
     <state width="1487" height="190" key="GridCell.Tab.0.left/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578904811826" />
     <state width="1487" height="476" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1578910985434" />
-    <state width="1487" height="476" key="GridCell.Tab.0.right" timestamp="1578910985435">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="209" key="GridCell.Tab.0.right" timestamp="1580986943702">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="209" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580986943702" />
     <state width="1487" height="190" key="GridCell.Tab.0.right/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578904811826" />
     <state width="1487" height="476" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1578910985435" />
-    <state width="1487" height="323" key="GridCell.Tab.1.bottom" timestamp="1578909178789">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="679" key="GridCell.Tab.1.bottom" timestamp="1580986179599">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="679" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580986179599" />
     <state width="1487" height="214" key="GridCell.Tab.1.bottom/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578900784839" />
     <state width="1487" height="323" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1578909178789" />
-    <state width="1487" height="323" key="GridCell.Tab.1.center" timestamp="1578909178789">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="679" key="GridCell.Tab.1.center" timestamp="1580986179599">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="679" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580986179599" />
     <state width="1487" height="214" key="GridCell.Tab.1.center/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578900784839" />
     <state width="1487" height="323" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1578909178789" />
-    <state width="1487" height="323" key="GridCell.Tab.1.left" timestamp="1578909178789">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="679" key="GridCell.Tab.1.left" timestamp="1580986179599">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="679" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580986179599" />
     <state width="1487" height="214" key="GridCell.Tab.1.left/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578900784839" />
     <state width="1487" height="323" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1578909178789" />
-    <state width="1487" height="323" key="GridCell.Tab.1.right" timestamp="1578909178789">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1877" height="679" key="GridCell.Tab.1.right" timestamp="1580986179599">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="679" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580986179599" />
     <state width="1487" height="214" key="GridCell.Tab.1.right/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578900784839" />
     <state width="1487" height="323" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1578909178789" />
     <state width="306" height="548" key="HiddenNamespacesPopup" timestamp="1578821274349">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state width="306" height="548" key="HiddenNamespacesPopup/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578821274349" />
-    <state x="198" y="40" key="SettingsEditor" timestamp="1578895182172">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="549" y="161" key="SettingsEditor" timestamp="1580180980671">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="549" y="161" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580180980671" />
     <state x="198" y="40" key="SettingsEditor/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578895182172" />
     <state x="198" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1578546667185" />
     <state x="261" y="117" key="Vcs.Push.Dialog.v2" timestamp="1578547509689">
@@ -307,9 +335,21 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="436" y="154" key="extract.method.dialog/0.40.1536.824@0.40.1536.824" timestamp="1578746008950" />
-    <state x="347" y="39" key="search.everywhere.popup" timestamp="1578727185020">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1580803106218">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580803106218" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1580695150176">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1580695150176" />
     <state x="347" y="39" key="search.everywhere.popup/0.40.1536.824/-1280.185.1280.680@0.40.1536.824" timestamp="1578727185020" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ganmao.value" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
