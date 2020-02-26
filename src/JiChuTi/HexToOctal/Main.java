@@ -43,7 +43,7 @@ public class Main {
     //将抽取的其中某个字符由十六进制字符转换成二进制字符
     private static String tranform(String str) {
         String result = "";
-        switch (str) {
+       /*   switch (str) {
             case "0":
                 result = Hex_data[0];
                 break;
@@ -94,7 +94,7 @@ public class Main {
                 break;
             default:
                 break;
-        }
+        }*/
         return result;
     }
 
@@ -118,7 +118,7 @@ public class Main {
     //将抽取其中三个字符由二进制字符串转换成八进制字符
     private static String tranform2(String str) {
         String result = "";
-        switch (str) {
+        /*switch (str) {
             case "000":
                 result = oct_data[0];
                 break;
@@ -143,7 +143,7 @@ public class Main {
             case "111":
                 result = oct_data[7];
                 break;
-        }
+        }*/
         return result;
     }
 }

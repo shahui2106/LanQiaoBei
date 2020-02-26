@@ -14,7 +14,7 @@ public class Main {
         //几行数据
         int n = sc.nextInt();
         //存放所有票据的
-        List<Integer> pj = new ArrayList<>();
+        List<Integer> pj = new ArrayList<Integer>();
         //记录每行输入的数据
         String[] data = new String[n + 1];
         for (int i = 0; i < data.length; i++) {

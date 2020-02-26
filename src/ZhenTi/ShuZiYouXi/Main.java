@@ -14,7 +14,7 @@ public class Main {
         int n = sc.nextInt(); //一共有多少人
         int k = sc.nextInt(); //边界
         int T = sc.nextInt();//个数
-        List<Integer> data = new ArrayList<>();
+        List<Integer> data = new ArrayList<Integer>();
 
         int temp = 0;//每次加一
         int num = 1; //当前数的数字
