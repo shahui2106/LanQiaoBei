@@ -1,109 +1,109 @@
 package JiChuTi.QueenProblem;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * @author Zhu
- * @createtime 2020/1/13-10:34
+ * @createtime 2020/1/13-18:37
  */
 public class Main {
+    //记录一共有多少可能
+    static int num = 0;
+    //queen[i] 表示第i个皇后的位置
+    static int[] queen;
+    //记录所有n皇后所有可能的结果
+    static List<int[]> result;
+
+    /**
+     * 检查当前列能否放置皇后，不能放返回false，能放放回true
+     *
+     * @param j 当前列
+     * @return 是否能放置
+     */
+    public static boolean place(int j) {
+        for (int i = 1; i < j; i++) {
+            //在同一列或者斜对角都不可以放置
+            if (queen[i] == queen[j] || Math.abs(queen[i] - queen[j]) == (j - i)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    /**
+     * 皇后放置策略
+     *
+     * @param data 棋盘数据
+     * @param j    从第j个开始放
+     * @param n    皇后的个数
+     */
+    public static void Nqueen(int[][] data, int j, int n) {
+        for (int i = 1; i <= n; i++) {
+            queen[j] = i;
+            if (place(j)) {
+                if (j == n) {
+                    boolean isZero = false;
+                    for (int i1 = 1; i1 < queen.length; i1++) {
+                        //判断棋盘此位置是否能放置
+                        if (data[i1 - 1][queen[i1] - 1] == 0) {
+                            isZero = true;
+                            break;
+                        }
+                    }
+                    if (!isZero) {
+                        //将此种可能放入结果集合中
+                        int[] tempdata = new int[queen.length];
+                        for (int i1 = 0; i1 < tempdata.length; i1++) {
+                            tempdata[i1] = queen[i1];
+                        }
+                        result.add(tempdata);
+                    }
+                } else {
+                    Nqueen(data, j + 1, n);
+                }
+            }
+        }
+    }
+
+    /**
+     * 判断两个数组中是否有对应相等的元素
+     *
+     * @param data1 数组1
+     * @param data2 数组2
+     * @return 只要有一个对应相等的元素就放回true, 否则放回false
+     */
+    private static boolean ishasequal(int[] data1, int[] data2) {
+        for (int i = 1; i < data1.length; i++) {
+            if (data1[i] == data2[i])
+                return true;
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        queen = new int[n + 1];
         int[][] data = new int[n][n];
+        result = new LinkedList<>();
         //初始化棋盘数据
         for (int i = 0; i < data.length; i++) {
             for (int i1 = 0; i1 < data.length; i1++) {
                 data[i][i1] = sc.nextInt();
             }
         }
-
-        //获取一种皇后摆放的个数
-        int num = getQueenStyleNum(data);
+        Nqueen(data, 1, n);
+        for (int i = 0; i < result.size(); i++) {
+            for (int j = 0; j < result.size(); j++) {
+                if (j != i) {
+                    if (!ishasequal(result.get(i), result.get(j))) {
+                        num++;
+                    }
+                }
+            }
+        }
         System.out.println(num);
-
     }
 
-    private static int getQueenStyleNum(int[][] data) {
-        //数组的序列号代表行，值代表列
-        int[] style = new int[data.length];
-        int num = 0;
-        boolean isrow = false;
-        for (int i = 0; i < style.length; i++) {
-            style[i] = -1;
-        }
 
-        int row = 0;
-        while (row < style.length) {
-            if (row == -1 || style[0] >= style.length)
-                break;
-            for (int col = 0; col < style.length; col++) {
-                if (isHasCow(style, row, col) || isHasRowAndCow(style, row, col) || data[row][col] == 0) {
-                    isrow = true;
-                    continue;
-                } else {
-                    style[row] = col;
-                    row++;
-                    isrow = false;
-                    break;
-                }
-            }
-            if (row == style.length) {
-                num++;
-                style[0]++;
-                row = 1;
-                for (int i = 1; i < style.length; i++) {
-                    style[i] = -1;
-                }
-            }
-            if (isrow && style[row] == -1)       //回退
-            {
-                style[row - 1]++;
-                while (isHasCow(style, row - 1, style[row - 1]) || isHasRowAndCow(style, row - 1, style[row - 1])) {
-                    style[row - 1]++;
-                }
-                while (style[row - 1] < style.length) {
-                    if (data[row - 1][style[row - 1]] == 0) {
-                        while (isHasCow(style, row - 1, style[row - 1]) || isHasRowAndCow(style, row - 1, style[row - 1])) {
-                            style[row - 1]++;
-                        }
-                    } else
-                        break;
-                }
-                while (style[row - 1] >= style.length) {  //超出列的范围后，再次回退
-                    if (row - 1 == 0 && style[row - 1] == style.length)
-                        break;
-                    style[row - 1] = -1;
-                    row--;
-                    if (row >= 0)
-                        style[row - 1]++;
-                    else
-                        break;
-                }
-            }
-        }
-        return num;
-    }
-
-    //判断斜对角是否有皇后
-    private static boolean isHasRowAndCow(int[] style, int row, int col) {
-        if (row == 0)
-            return false;
-        if (col == 0) {
-            if (style[row - 1] == col + 1)
-                return true;
-        }
-        if (style[row - 1] == col - 1 || style[row - 1] == col + 1)
-            return true;
-        return false;
-    }
-
-    //判断此列有没有皇后
-    private static boolean isHasCow(int[] style, int row, int col) {
-        for (int i1 = 0; i1 < row; i1++) {
-            if (style[i1] == col)
-                return true;
-        }
-        return false;
-    }
 }
