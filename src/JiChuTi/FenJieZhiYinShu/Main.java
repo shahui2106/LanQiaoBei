@@ -31,7 +31,7 @@ public class Main {
         //构造结果表达式
         String result = "" + i + "=";
         //此数质因数的集合
-        List<Integer> factors = new LinkedList<>();
+        List<Integer> factors = new LinkedList<Integer>();
         //从2开始依次判断
         for (int j = 2; j <= i; j++) {
             if (i % j == 0) {
