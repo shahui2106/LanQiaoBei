@@ -85,7 +85,7 @@ public class Main {
         int n = sc.nextInt();
         queen = new int[n + 1];
         int[][] data = new int[n][n];
-        result = new LinkedList<>();
+        result = new LinkedList<int[]>();
         //初始化棋盘数据
         for (int i = 0; i < data.length; i++) {
             for (int i1 = 0; i1 < data.length; i1++) {
