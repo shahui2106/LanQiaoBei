@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @author zhu
  * @datetime 2020-02-26 10:19
  */
-public class Question1 {
+public class 购物单 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<String> introduction = new ArrayList<String>();
@@ -30,7 +30,6 @@ public class Question1 {
                     zhekou = 0.5f;
                 } else
                     zhekou = (float) (Float.parseFloat(newtmp) * 0.01);
-
                 sum += (1 - zhekou) * Float.parseFloat(price);
             } else {
                 price = tmp;
