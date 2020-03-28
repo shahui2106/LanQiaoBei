@@ -1,6 +1,5 @@
 package MoNiSai_2020.p5;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
