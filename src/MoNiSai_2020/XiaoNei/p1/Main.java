@@ -1,8 +1,7 @@
-package MoNiSai_2020.p1;
+package MoNiSai_2020.XiaoNei.p1;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * 填空题1 -- 1200000有多少个约数（只计算正约数）

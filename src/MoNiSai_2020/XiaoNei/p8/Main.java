@@ -1,4 +1,4 @@
-package MoNiSai_2020.p8;
+package MoNiSai_2020.XiaoNei.p8;
 
 import java.util.Scanner;
 

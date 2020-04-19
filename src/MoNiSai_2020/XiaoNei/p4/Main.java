@@ -1,4 +1,4 @@
-package MoNiSai_2020.p4;
+package MoNiSai_2020.XiaoNei.p4;
 
 /**
  * 填空题4 -- 在1至2019中，有多少个数的数位中包含数字9？
