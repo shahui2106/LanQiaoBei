@@ -17,7 +17,6 @@ public class Main {
     public static int sumValue;
     //物品个数
     public static int n;
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         sumValue = sc.nextInt();
