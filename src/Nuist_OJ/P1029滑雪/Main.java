@@ -1,6 +1,5 @@
 package Nuist_OJ.P1029滑雪;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -12,22 +11,18 @@ import java.util.Scanner;
 public class Main {
     static int[][] dp;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        StringBuffer str = new StringBuffer();
         while (sc.hasNext()) {
             int n = sc.nextInt();
             int m = sc.nextInt();
-            str.append(n + " " + m + "\n");
             int max = 0;
             int[][] data = new int[n][m];
             dp = new int[n][m];
             for (int i = 0; i < data.length; i++) {
                 for (int j = 0; j < data[i].length; j++) {
                     data[i][j] = sc.nextInt();
-                    str.append(data[i][j] + " ");
                 }
-                str.append("\n");
             }
             for (int i = 0; i < data.length; i++) {
                 for (int j = 0; j < data[i].length; j++) {
